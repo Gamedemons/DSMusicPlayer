@@ -5,8 +5,8 @@ public class Main {
 
         try{
             Playlist playlist = new Playlist("DS");
-            playlist.getSongs().add("src/Songs/01 the main theme of ''Kimetsu no Yaiba''.mp3");
-            playlist.getSongs().add("src/Songs/Kamado Tanjirou no Uta (From Demon Slayer Kimetsu no Yaiba).mp3");
+            playlist.getSongs().add("MusicPlayer/src/Songs/01 the main theme of ''Kimetsu no Yaiba''.mp3");
+            playlist.getSongs().add("MusicPlayer/src/Songs/Kamado Tanjirou no Uta (From Demon Slayer Kimetsu no Yaiba).mp3");
 
             String filename = "";
             Scanner scanner = new Scanner(System.in);
@@ -19,7 +19,6 @@ public class Main {
                 int trackNo = Integer.parseInt(input);
                 if(trackNo > playlist.getSongs().size() || trackNo < 1){
                     System.out.println("Track out of bounds !\n");
-                    continue;
                 }else{
                     filename = playlist.getSongs().get(trackNo-1);
                     break;
@@ -41,7 +40,7 @@ public class Main {
                 }
             }
         }catch(Exception e){
-            e.getMessage();
+            e.printStackTrace();
         }
 
     }

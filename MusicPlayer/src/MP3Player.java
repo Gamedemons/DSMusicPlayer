@@ -20,15 +20,13 @@ class MP3Player {
             System.out.println(e.getMessage());
         }
 
-        new Thread() {
-            public void run() {
-                try {
-                    jlPlayer.play();
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
+        new Thread(() -> {
+            try {
+                jlPlayer.play();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
-        }.start();
+        }).start();
 
 
     }
