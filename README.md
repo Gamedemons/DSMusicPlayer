@@ -12,8 +12,9 @@
  <p align="center"><img src="MusicPlayer/src/SharedScreenshot2.jpg"></p>
  
  
- ## Libraries Used
- <p align="center"><img src="MusicPlayer/src/lombok-java.png" width=10% height=10%></p>
- <p align="center">Lomboc</p> 
- <p align="center"><img src="MusicPlayer/src/lombok-java.png"></p>
- <p align="center">JLayer</p>
+## Libraries Used
+<details open>
+<summary>🔱<b>Forked Repositories</b></summary>
+
+- [Lomboc](https://projectlombok.org/)
+- [JLayer](https://github.com/umjammer/jlayer)
