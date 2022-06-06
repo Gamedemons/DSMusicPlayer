@@ -12,6 +12,8 @@
  <p align="center"><img src="MusicPlayer/src/SharedScreenshot2.jpg"></p>
  
  
- 
  ## Libraries Used
- Lomboc, JLayer
+ <p align="center"><img src="MusicPlayer/src/lombok-java.png"></p>
+ <p align="center">Lomboc</p> 
+ <p align="center"><img src="MusicPlayer/src/lombok-java.png"></p>
+ <p align="center">JLayer</p>
