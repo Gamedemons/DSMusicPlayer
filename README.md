@@ -13,7 +13,6 @@
  
  
 ## Libraries Used
-<details open>
-<summary></summary>
-- [Lomboc](https://projectlombok.org/)
-- [JLayer](https://github.com/umjammer/jlayer)
+[Lomboc](https://projectlombok.org/)
+</br>
+[JLayer](https://github.com/umjammer/jlayer)
