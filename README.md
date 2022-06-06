@@ -14,7 +14,6 @@
  
 ## Libraries Used
 <details open>
-<summary>🔱<b>Forked Repositories</b></summary>
-
+<summary></summary>
 - [Lomboc](https://projectlombok.org/)
 - [JLayer](https://github.com/umjammer/jlayer)
