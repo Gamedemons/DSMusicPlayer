@@ -13,7 +13,7 @@
  
  
  ## Libraries Used
- <p align="center"><img src="MusicPlayer/src/lombok-java.png" width=100px height=100px></p>
+ <p align="center"><img src="MusicPlayer/src/lombok-java.png" width=50% height=50%></p>
  <p align="center">Lomboc</p> 
  <p align="center"><img src="MusicPlayer/src/lombok-java.png"></p>
  <p align="center">JLayer</p>
